@@ -356,7 +356,7 @@ PrincipalComponentAnalysis <- function(jaspResults, dataset, options, ...) {
   plt <-
     jaspGraphs::themeJasp(plt) +
     ggplot2::theme(
-      legend.position      = c(0.99, 0.95),
+      legend.position      = c(0.95, 0.95),
       legend.justification = c(1, 1),
       legend.text          = ggplot2::element_text(size = 12.5),
       legend.title         = ggplot2::element_blank(),
